@@ -1,0 +1,250 @@
+data.frame(Year=1700:1988,Sunspot.count=sunspot.year)
+sunspots <- data.frame(Year=1700:1988,Sunspot.count=sunspot.year)
+sunspots_int <- round(sunspots)
+summary
+summary()
+kc=krige.conv(zfie.spdf,loc=pred.grid,krige=krige.control(cov.pars=c(1,.25))
+pred.grid==expand.grid(seq(90,105,l=15),seq(-10,10,l5)
+library(GISTools)
+data(newhaven)
+plot(blocks)
+plot(roads,add=TRUE,col='red')
+map.scale(534750,152000,miles2ft(2),"Miles",4,0.5)
+north.arrow(530650,154000,miles2ft(0.25),col='lightblue')
+title('New Haven,CT')
+rm(list=ls())
+data(georgia)
+ls()
+plot(georgia,col="red",bg="wheat")
+georgia.outline = gUnaryUnion(georgia,id=NULL)
+plot(georgia.outline)
+library(GIStools)
+library(GISTools)
+library(maptools)
+par(mfrow=c(1,2))
+par(mar = c(2,0,3,0))
+plot(georgia,col="red",bg="wheat")
+data(georgia)
+plot(georgia,col="red",bg="wheat")
+title("georgia")
+plot(georgia2,col="orange",bg="lightyellow3")
+title("georgia2")
+geogria
+dim(georgia)
+library(GISTools)
+data(newhaven)
+roads
+xmin=bbox(roads)[1,1]
+ymin=bbox(roads)[2,1]
+(roads)[1,1]
+(roads)[2,1]
+xmin
+bbox
+xmin
+bbox(roads)
+ymin=bbox(roads)[2,1]
+sp500 = new.env()
+getSymbols("^GSPC",env=sp500,src= "yahoo", from = as.Date("1960-01-04"), to = as.Date("2009-01-04") )
+require("quantmod")
+library(quantmod)
+require("quantmod")
+getSymbols("^GSPC",env=sp500,src= "yahoo", from = as.Date("1960-01-04"), to = as.Date("2009-01-04") )
+GSPC
+gspc
+print(GSPC)
+sp500
+GSPC= sp500$GSPC
+GSPC
+head(gspc)
+head(GSPC)
+head(GSPC$GSPC.Volume)
+GSPC$GSPC.Volume
+GSPC["1970-03"]
+GSPC["/1960-01-6"]
+GSPC["/1960-01-06"]
+CL(GSPC)
+cl(GSPC)
+cl
+head(CL(GSPC))
+cl
+Cl
+head(Cl(GSPC))
+Cl(GSPC)
+a<-array(rnorm(2*2*10),c(2,2,10))
+a
+dims(a)
+dimension(a)
+a
+summary(a)
+dim(A)
+dim(a)
+swirl
+library("swirl")
+swirl()
+head(flags)
+dim(flags)
+viewfin()
+viewinfo()
+class(flags)
+cls_list<-lapply(flags,class)
+cls_list
+flags()
+class(cls_list)
+as.character(cls_list)
+sapply(flags,class)
+cls_vect<-sapply(flags,class)
+cls_vect
+class(cls_vect)
+sum(flags$orange)
+flag_colrs <- flags[,11:17]
+flag_colors <-flags[,11:17]
+head(flag_colors)
+lappy(flag_colors,sum)
+lapply(flag_colors,sum)
+sapply(flag_colors,sum)
+sapply(flag_colors,mean)
+flag_shapes <-flags[,19:23]
+lapply(flag_shapes,range)
+shape_mat<-lapply(flag_shapes,range)
+shape_mat<-sapply(flag_shapes,range)
+shape_mat
+class(shape_mat)
+unique(c(3,4,5,5,5,6,6))
+unique_vals<-lapply(flags,unique)
+unique_vals
+sapply(unique_vals,length)
+sapply(flags,unique)
+lapply,(unique_vals,function(elm) elem[2])
+lapply(unique_vals,function(elm) elem[2])
+lapply(unique_vals,function(elem) elem[2])
+gl
+gl(3,10)
+tapply
+library(swirl)
+swirl()
+unique(flags)
+head(flags)
+sapply(flags,unique)
+vapply(flags,unique,numeric(1))
+ok()
+sapply(flags,class)
+vapply(flags,class,character(1))
+?tapply
+table(flags$landmass)
+flags$landmass
+flags$animate
+table(flags$animate)
+tapply(flags$animate,flags$landmass,mean)
+tapply(flags$population,flags$red,summary)
+tapply(flags$population,flags$landmass,summary)
+library(datasets)
+data(iris)
+?iris
+head(iris)
+dim(iris)
+iris
+sapply(iris,mean)
+tapply(iris,"virginica")
+tapply(iris,'virginica',mean)
+tapply(iris,c('virginica'),mean)
+head(iris)
+tapply(iris$Sepal.Lenght,iris$Species,mean)
+tapply(iris$Sepal.Length,iris$Species,mean)
+apply(irirs,1,mean)
+apply(iris,1,mean)
+apply(iris[,1:4],1,mean)
+apply(iris,1,mean)
+apply(iris[,1:4],2,mean)
+data(mtcars)
+?mtcars
+split(mtcars, mtcars$cyl)
+head(mtcars)
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+tapply(mtcars$mpg, mtcars$cyl, mean)
+tapply(mtcars$cyl, mtcars$mpg, mean)
+apply(mtcars,2,mean)
+sapply(mtcars,cyl,mean)
+mean(mtcars$mpg,mtcars$cyl)
+with(mtcards,tapply(mpg,cyl,mean))
+with(mtcars,tapply(mpg,cyl,mean))
+lapply(mtcars,mean)
+head(mtcars)
+tapply(mtcars$hp,mtcars$cyl,mean)
+209.21429-82.63636
+debug(ls)
+ls
+apply(iris[, 1:4], 2, mean)
+lapply(mtcars, mean)
+mean(mtcars$mpg, mtcars$cyl)
+split(mtcars,mtcars$cyl)
+lapply(mtcars,mean)
+tapply(mtcars$cyl,mtcards$mpg,mean)
+tapply(mtcars$cyl,mtcars$mpg,mean)
+with(mtcars,tapply(mpg,cyl,mean))
+sapply(splsapply(split(mtcars$mpg, mtcars$cyl), mean))
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+sapply(mtcars,cyl,mean)
+tapply(mtcars$mpg,mtcars$cyl,mean)
+apply(mtcars,2,mean)
+tapply(mtcars$cyl,mtcars$mpg,mean)
+head(mtcars)
+tapply(mtcars$hp,mtcars$cyl)
+tapply(mtcars$hp,mtcars$cyl,mean)
+209.21429-82.63636
+debug(ls)
+ls
+1
+2
+mean
+solve
+mean?
+)
+?mean
+soure("Rexamplmakevector.R")
+source("Rexamplmakevector.R")
+ls()
+ya=makeVector(1:10)
+ya
+ya=makeVector(c(1:10))
+ya
+ya=makeVector(c(1:10))
+ls()
+cachemean(ya)
+mean(c(1:10))
+matrix(nums,nrow=3,)
+matrix(Nums,nrow=3,)
+matrix(1:4,nrows=2)
+matrix(1:4,nrow=2)
+mat1=matrix(1:4,nrow=2)
+solve(mat1)
+source("cachematrix.R")
+ls()
+mat2=makeCacheMatrix(matrix(1:4,nrow=2))
+cacheSolve(mat2)
+cacheSolve(mat2)
+source("cachematrix.R")
+mat2=makeCacheMatrix(matrix(1:4,nrow=2))
+cacheSolve(mat2)
+cachesolve(mat2)
+ls()
+source("cachematrix.R")
+getwd()
+mat2=makeCacheMatrix(matrix(1:4,nrow=2))
+cachesolve(mat2)
+cacheSolve(mat2)
+mat3=cachesolve(mat3)
+mat3=cachesolve(mat2)
+mat3=cacheSolve(mat2)
+cacheSolve(mat2)
+mat3cacheSolve(mat2)
+ls()
+mat3
+mat3*mt2
+mat3*mat2
+mat3.*mat2
+mat3 %*% mat2
+mat3
+mat2
+mat2=
+matrix(1:4,nrow=2)
+mat3 %*% mat2
